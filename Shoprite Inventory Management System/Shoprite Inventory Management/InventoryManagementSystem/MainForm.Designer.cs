@@ -31,6 +31,7 @@ namespace InventoryManagementSystem
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@ namespace InventoryManagementSystem
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panelMain = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).BeginInit();
@@ -75,6 +75,19 @@ namespace InventoryManagementSystem
             this.panel1.Size = new System.Drawing.Size(992, 119);
             this.panel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Honeydew;
+            this.label1.Font = new System.Drawing.Font("Algerian", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.BlueViolet;
+            this.label1.Location = new System.Drawing.Point(201, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(512, 25);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "SHOPRITE INVENTORY MANAGEMENT SYSTEM";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -82,7 +95,7 @@ namespace InventoryManagementSystem
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(688, 53);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 19);
+            this.label8.Size = new System.Drawing.Size(60, 17);
             this.label8.TabIndex = 13;
             this.label8.Text = "ORDERS";
             // 
@@ -93,7 +106,7 @@ namespace InventoryManagementSystem
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(564, 53);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 19);
+            this.label7.Size = new System.Drawing.Size(46, 17);
             this.label7.TabIndex = 13;
             this.label7.Text = "USERS";
             // 
@@ -104,7 +117,7 @@ namespace InventoryManagementSystem
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(404, 53);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 19);
+            this.label6.Size = new System.Drawing.Size(92, 17);
             this.label6.TabIndex = 13;
             this.label6.Text = "CATEGORIES";
             // 
@@ -115,7 +128,7 @@ namespace InventoryManagementSystem
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(271, 53);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 19);
+            this.label5.Size = new System.Drawing.Size(88, 17);
             this.label5.TabIndex = 13;
             this.label5.Text = "CUSTOMERS";
             // 
@@ -126,7 +139,7 @@ namespace InventoryManagementSystem
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(158, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 19);
+            this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 13;
             this.label4.Text = "PRODUCT";
             // 
@@ -224,26 +237,13 @@ namespace InventoryManagementSystem
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label9.Location = new System.Drawing.Point(815, 480);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(214, 23);
+            this.label9.Size = new System.Drawing.Size(174, 21);
             this.label9.TabIndex = 1;
             this.label9.Text = "@Copy Right Mdemy";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Honeydew;
-            this.label1.Font = new System.Drawing.Font("Algerian", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.BlueViolet;
-            this.label1.Location = new System.Drawing.Point(145, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(633, 31);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "SHOPRITE INVENTORY MANAGEMENT SYSTEM";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(992, 617);
             this.Controls.Add(this.panelMain);

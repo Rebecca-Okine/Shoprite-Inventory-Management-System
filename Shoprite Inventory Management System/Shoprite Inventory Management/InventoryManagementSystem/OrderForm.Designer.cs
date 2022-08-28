@@ -65,10 +65,10 @@ namespace InventoryManagementSystem
             this.dgvOrder.BackgroundColor = System.Drawing.Color.White;
             this.dgvOrder.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Teal;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Cyan;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvOrder.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
@@ -110,7 +110,7 @@ namespace InventoryManagementSystem
             this.Column5.HeaderText = "No";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
-            this.Column5.Width = 57;
+            this.Column5.Width = 48;
             // 
             // Column1
             // 
@@ -118,7 +118,7 @@ namespace InventoryManagementSystem
             this.Column1.HeaderText = "Order Id";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 98;
+            this.Column1.Width = 79;
             // 
             // Column8
             // 
@@ -126,7 +126,7 @@ namespace InventoryManagementSystem
             this.Column8.HeaderText = "Order Date";
             this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
-            this.Column8.Width = 119;
+            this.Column8.Width = 98;
             // 
             // Column2
             // 
@@ -134,7 +134,7 @@ namespace InventoryManagementSystem
             this.Column2.HeaderText = "Product Id";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 113;
+            this.Column2.Width = 92;
             // 
             // Column9
             // 
@@ -142,7 +142,7 @@ namespace InventoryManagementSystem
             this.Column9.HeaderText = "Product Name";
             this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
-            this.Column9.Width = 142;
+            this.Column9.Width = 117;
             // 
             // Column6
             // 
@@ -150,7 +150,7 @@ namespace InventoryManagementSystem
             this.Column6.HeaderText = "Customer Id";
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
-            this.Column6.Width = 125;
+            this.Column6.Width = 102;
             // 
             // Column10
             // 
@@ -158,7 +158,7 @@ namespace InventoryManagementSystem
             this.Column10.HeaderText = "Customer Name";
             this.Column10.MinimumWidth = 6;
             this.Column10.Name = "Column10";
-            this.Column10.Width = 154;
+            this.Column10.Width = 127;
             // 
             // Column4
             // 
@@ -166,7 +166,7 @@ namespace InventoryManagementSystem
             this.Column4.HeaderText = "Qty";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 62;
+            this.Column4.Width = 52;
             // 
             // Column3
             // 
@@ -174,7 +174,7 @@ namespace InventoryManagementSystem
             this.Column3.HeaderText = "Price";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
-            this.Column3.Width = 73;
+            this.Column3.Width = 61;
             // 
             // Column7
             // 
@@ -194,7 +194,7 @@ namespace InventoryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.Controls.Add(this.lblTotal);
             this.panel1.Controls.Add(this.lblQty);
             this.panel1.Controls.Add(this.label5);
@@ -216,7 +216,7 @@ namespace InventoryManagementSystem
             this.lblTotal.ForeColor = System.Drawing.Color.White;
             this.lblTotal.Location = new System.Drawing.Point(656, 54);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(0, 20);
+            this.lblTotal.Size = new System.Drawing.Size(0, 17);
             this.lblTotal.TabIndex = 18;
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -226,7 +226,7 @@ namespace InventoryManagementSystem
             this.lblQty.ForeColor = System.Drawing.Color.White;
             this.lblQty.Location = new System.Drawing.Point(535, 56);
             this.lblQty.Name = "lblQty";
-            this.lblQty.Size = new System.Drawing.Size(0, 20);
+            this.lblQty.Size = new System.Drawing.Size(0, 17);
             this.lblQty.TabIndex = 17;
             this.lblQty.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -237,7 +237,7 @@ namespace InventoryManagementSystem
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(644, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 19);
+            this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 16;
             this.label5.Text = "Total Amount";
             // 
@@ -248,7 +248,7 @@ namespace InventoryManagementSystem
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(535, 21);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 19);
+            this.label4.Size = new System.Drawing.Size(30, 16);
             this.label4.TabIndex = 16;
             this.label4.Text = "Qty";
             // 
@@ -259,7 +259,7 @@ namespace InventoryManagementSystem
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(436, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 19);
+            this.label3.Size = new System.Drawing.Size(57, 16);
             this.label3.TabIndex = 16;
             this.label3.Text = "Order  :";
             // 
@@ -270,7 +270,7 @@ namespace InventoryManagementSystem
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(10, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 21);
+            this.label2.Size = new System.Drawing.Size(74, 17);
             this.label2.TabIndex = 15;
             this.label2.Text = "Search In :";
             // 
@@ -278,7 +278,7 @@ namespace InventoryManagementSystem
             // 
             this.txtSearch.Location = new System.Drawing.Point(88, 51);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(302, 26);
+            this.txtSearch.Size = new System.Drawing.Size(302, 22);
             this.txtSearch.TabIndex = 14;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
@@ -302,13 +302,13 @@ namespace InventoryManagementSystem
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(6, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 23);
+            this.label1.Size = new System.Drawing.Size(124, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Manage Order";
             // 
             // OrderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(992, 506);
             this.Controls.Add(this.dgvOrder);

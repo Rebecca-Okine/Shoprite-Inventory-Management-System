@@ -54,15 +54,15 @@ namespace InventoryManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Polite;
-            this.label1.Location = new System.Drawing.Point(45, 36);
+            this.label1.Location = new System.Drawing.Point(3, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(620, 39);
+            this.label1.Size = new System.Drawing.Size(567, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "INVENTORY MANAGEMENT SYSTEM";
+            this.label1.Text = "SHOPRITE INVENTORY MANAGEMENT SYSTEM";
             // 
             // flowLayoutPanel1
             // 
@@ -94,9 +94,9 @@ namespace InventoryManagementSystem
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.label2.Location = new System.Drawing.Point(404, 261);
+            this.label2.Location = new System.Drawing.Point(434, 256);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(220, 20);
+            this.label2.Size = new System.Drawing.Size(178, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "@Copy Right Shoprite Ghana";
             // 
@@ -109,7 +109,7 @@ namespace InventoryManagementSystem
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(624, 279);
+            this.ClientSize = new System.Drawing.Size(621, 282);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
